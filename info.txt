@@ -1,0 +1,45 @@
+Design Problem, School Management System
+We start by simply naming as the possible classes/objects that we can think of as part of this project.
+
+> Classes:
+Student
+Professor
+Course
+Enrol: Class to link students to courses
+
+> Tracking the requried information for each class:
+
+Address
+- country: string
+- state: string
+- city: string
+- streetAddress: string
+- postalCode: string
+
+Person
+- firstName: string
+- lastName: string
+- dateOfBirth(instead of age): Date
+- phoneNumber: string
+
+Student
+- international: boolean
+- isPartTime(): boolean
+- isOnProbation(): boolean
+
+Professor
+- salary: float
+
+Course
+- name: string
+- code: string
+- minStudents: int
+- maxStudents: int
+- start: date
+- end: date
+- isCancelled(): boolean
+
+Enrol
+- date: date
+- grade: float
+
